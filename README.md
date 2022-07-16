@@ -1,6 +1,6 @@
-# :bo0m: Vue3 Use Hooks
+# :boom: Vue3 Use Hooks
 
-<p align="center">Reusability and Composition functions.</p>
+<p>Reusability and Composition functions.</p>
 
 ## :books: Introduction
 
