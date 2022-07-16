@@ -1,8 +1,8 @@
-# Vue3 Use Hooks
+# :bo0m: Vue3 Use Hooks
 
 <p align="center">Reusability and Composition functions.</p>
 
-## :sunflower: Introduction
+## :books: Introduction
 
 Vue Use Hooks implemented as vue composition functions.
 
@@ -22,30 +22,30 @@ npm install vue3-use-hooks
 import { useModal } from 'vue3-use-hooks';
 
 const contrubitors = [
-    {
+  {
     id: 1,
     emoji: '👨',
     fullname: 'Abdulnasır Olcan',
-    programmer: 'Frontend Developer',
-    },
-    {
+    programmer: 'Frontend Developer'
+  },
+  {
     id: 2,
     emoji: '👩',
     fullname: 'Büşra Şanlıbayrak',
-    programmer: 'Frontend Developer',
-    },
-    {
+    programmer: 'Frontend Developer'
+  },
+  {
     id: 3,
     emoji: '🧑‍',
     fullname: 'Mehmet Varol',
-    programmer: 'Frontend Developer',
-    },
+    programmer: 'Frontend Developer'
+  }
 ];
 const { visible, setVisible, current, openModal, closeModal } = useModal();
 
 const handleButton = () => {
-    openModal(contrubitors);
-    setVisible(true);
+  openModal(contrubitors);
+  setVisible(true);
 };
 </script>
 
@@ -82,7 +82,6 @@ const handleButton = () => {
 <script setup lang="ts">
 import { useState } from 'vue3-use-hooks';
 const [count, setCount] = useState(0);
-
 </script>
 
 <template>
@@ -102,21 +101,21 @@ import { reactive } from 'vue';
 import { useStringCase } from 'vue3-use-hooks';
 
 const state = reactive({
-    name: 'imelda white',
-    gender: 'female',
-    company: 'NEUROCELL',
-    email: 'Imeldawhite@nr.com',
-    balance: '3,814.49',
-    about: 'Veniam fugiat pariatur adipisicing do consequat.',
-    address: 'bulwer place, lemoyne, district of columbia, 5597',
+  name: 'imelda white',
+  gender: 'female',
+  company: 'NEUROCELL',
+  email: 'Imeldawhite@nr.com',
+  balance: '3,814.49',
+  about: 'Veniam fugiat pariatur adipisicing do consequat.',
+  address: 'bulwer place, lemoyne, district of columbia, 5597'
 });
 
-const { camelCase, kebabCase, pascalCase, upperCase, lowerCase, sentenceCase, capitalizeCase } = useStringCase();
-
+const { camelCase, kebabCase, pascalCase, upperCase, lowerCase, sentenceCase, capitalizeCase } =
+  useStringCase();
 </script>
 
 <template>
-   <div>
+  <div>
     <p><b>CamelCase: </b>{{ camelCase(state.about) }}</p>
     <p><b>CapitalizeCase: </b>{{ capitalizeCase(state.name) }}</p>
     <p><b>SentenceCase: </b>{{ sentenceCase(state.company) }}</p>

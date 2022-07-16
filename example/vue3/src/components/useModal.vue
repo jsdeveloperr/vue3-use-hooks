@@ -2,30 +2,30 @@
 import { useModal } from '../../../../src';
 
 const contrubitors = [
-    {
+  {
     id: 1,
     emoji: '👨',
     fullname: 'Abdulnasır Olcan',
-    programmer: 'Frontend Developer',
-    },
-    {
+    programmer: 'Frontend Developer'
+  },
+  {
     id: 2,
     emoji: '👩',
     fullname: 'Büşra Şanlıbayrak',
-    programmer: 'Frontend Developer',
-    },
-    {
+    programmer: 'Frontend Developer'
+  },
+  {
     id: 3,
     emoji: '🧑‍',
     fullname: 'Mehmet Varol',
-    programmer: 'Frontend Developer',
-    },
+    programmer: 'Frontend Developer'
+  }
 ];
 const { visible, setVisible, current, openModal, closeModal } = useModal();
 
 const handleButton = () => {
-    openModal(contrubitors);
-    setVisible(true);
+  openModal(contrubitors);
+  setVisible(true);
 };
 </script>
 
@@ -186,6 +186,7 @@ $yellow: #f1c40f;
     p {
       width: 70%;
       font-size: 44px;
+      color: #000;
     }
 
     h1 {
@@ -194,10 +195,12 @@ $yellow: #f1c40f;
       margin-left: 50px;
       font-size: 17px;
       font-weight: 550;
+      color: #000;
     }
 
     span {
       margin: 0px 50px;
+      color: #000;
     }
   }
 }
