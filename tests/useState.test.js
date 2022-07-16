@@ -1,6 +1,6 @@
-import { useState } from '../src/useState';
+import { nextTick } from 'vue';
 import { mount } from '@vue/test-utils';
-import { nextTick } from 'vue'
+import { useState } from '../src/useState';
 
 const mocksList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
