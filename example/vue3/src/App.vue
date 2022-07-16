@@ -1,7 +1,8 @@
 <template>
   <nav>
-    <router-link class="router-list" to="/" active-class="active"
-      >useStringCase</router-link
+    <router-link class="router-list" to="/" active-class="active">useStringCase</router-link>
+    <router-link class="router-list" to="/use-local-storage-hook" active-class="active"
+      >useLocalStorage</router-link
     >
     <router-link class="router-list" to="/use-state-hook" active-class="active"
       >useState</router-link
