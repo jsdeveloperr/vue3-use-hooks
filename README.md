@@ -28,6 +28,23 @@ yarn add vue3-use-hooks
 npm install vue3-use-hooks
 ```
 
+## :sparkles: useLocalStorage
+
+```vue
+<script setup lang="ts">
+import { useLocalStorage } from 'vue3-use-hooks';
+const { value, remove } = useLocalStorage('test', 1);
+</script>
+
+<template>
+  <div>
+    <p><b>Value is: </b> {{ value }}</p>
+    <button class="fourth" @click="value = '2'">Change</button>
+    <button class="first" @click="remove">Remove</button>
+  </div>
+</template>
+```
+
 ## :sparkles: useModal
 
 ```vue
