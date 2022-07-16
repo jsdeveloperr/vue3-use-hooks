@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useLocalStorage } from 'vue3-use-hooks';
-const { value, remove } = useLocalStorage('test', 1);
+const { value, remove } = useLocalStorage('test', '1');
 </script>
 
 <template>

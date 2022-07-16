@@ -1,6 +1,6 @@
 import { ref, onMounted, onUnmounted, watchEffect } from 'vue';
 
-const useLocalStorage = (storageKey: any, defaultValue = '') => {
+const useLocalStorage = (storageKey: string, defaultValue: string = '') => {
   const value = ref(null);
   const init = () => {
     const item = localStorage.getItem(storageKey);
