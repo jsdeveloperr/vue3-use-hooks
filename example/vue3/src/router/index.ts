@@ -13,7 +13,7 @@ const routes = [
   },
   {
     path: '/use-local-storage-hook',
-    name: 'useState',
+    name: 'useLocalStorage',
     component: useLocalStorageComponent
   },
   {
