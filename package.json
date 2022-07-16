@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.1",
   "description": "vue3 use hooks",
+  "author": "Abdulnasır OLCAN",
   "license": "MIT",
   "main": "dist/index.umd.js",
   "source": "src/index.ts",
@@ -10,13 +11,20 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "prepublish": "yarn build"
+    "prepublish": "yarn build",
+    "test": "vitest run",
+    "test:CI": "vitest --watch=false",
+    "coverage": "vitest run --coverage"
   },
   "devDependencies": {
     "@types/node": "^18.0.5",
     "@vitejs/plugin-vue": "^3.0.0",
+    "@vue/test-utils": "^2.0.2",
+    "c8": "^7.11.3",
+    "jsdom": "^20.0.0",
     "typescript": "^4.6.4",
     "vite": "^3.0.0",
+    "vitest": "^0.18.1",
     "vue": "^3.2.37",
     "vue-tsc": "^0.38.4"
   },
@@ -24,6 +32,10 @@
     "type": "git",
     "url": "https://github.com/jsdeveloperr/vue3-use-hooks.git"
   },
+  "bugs": {
+    "url": "https://github.com/jsdeveloperr/vue3-use-hooks/issues"
+  },
+  "homepage": "https://github.com/jsdeveloperr/vue3-use-hooks#readme",
   "keywords": [
     "vue",
     "vue-use",
@@ -31,6 +43,9 @@
     "vue-composable",
     "use-hooks",
     "component"
+  ],
+  "files": [
+    "dist/*.js"
   ],
   "dependencies": {}
 }
