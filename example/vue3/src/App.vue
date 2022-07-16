@@ -1,13 +1,13 @@
 <template>
   <nav>
+    <router-link class="router-list" to="/" active-class="active"
+      >useStringCase</router-link
+    >
     <router-link class="router-list" to="/use-state-hook" active-class="active"
       >useState</router-link
     >
     <router-link class="router-list" to="/use-modal-hook" active-class="active"
       >useModal</router-link
-    >
-    <router-link class="router-list" to="/use-string-case-hook" active-class="active"
-      >useStringCase</router-link
     >
   </nav>
   <router-view class="padding"></router-view>

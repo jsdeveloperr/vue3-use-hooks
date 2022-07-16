@@ -6,6 +6,11 @@ const useStringCaseComponent = () => import('../components/useStringCase.vue');
 
 const routes = [
   {
+    path: '/',
+    name: 'useStringCase',
+    component: useStringCaseComponent
+  },
+  {
     path: '/use-state-hook',
     name: 'useState',
     component: useStateComponent
@@ -15,11 +20,6 @@ const routes = [
     name: 'useModal',
     component: useModalComponent
   },
-  {
-    path: '/use-string-case-hook',
-    name: 'useStringCase',
-    component: useStringCaseComponent
-  }
 ];
 const router = createRouter({
   history: createWebHistory(),
