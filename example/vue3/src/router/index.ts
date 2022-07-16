@@ -6,11 +6,6 @@ const useStringCaseComponent = () => import('../components/useStringCase.vue');
 
 const routes = [
   {
-    path: '/',
-    name: 'useStringCase',
-    component: useStringCaseComponent
-  },
-  {
     path: '/use-state-hook',
     name: 'useState',
     component: useStateComponent

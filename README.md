@@ -17,7 +17,7 @@ Vue Use Hooks implemented as vue composition functions.
 
 ## :rocket: Example
 
-Check our [example](https://vue3-use-hooks.vercel.app)
+Check our [example](https://vue3-use-hooks.vercel.app/use-string-case-hook)
 
 ## :package: Installation
 
