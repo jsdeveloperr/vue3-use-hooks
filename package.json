@@ -1,6 +1,6 @@
 {
   "name": "vue3-use-hooks",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "vue3 use hooks",
   "author": "Abdulnasır OLCAN",
   "license": "MIT",
@@ -40,8 +40,10 @@
     "vue-use",
     "vue-use-hooks",
     "vue-composable",
+    "vue3-composable",
     "use-hooks",
-    "component"
+    "vue-hooks",
+    "vue3-hooks"
   ],
   "files": [
     "dist/*.js"

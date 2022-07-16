@@ -1,15 +1,22 @@
 <template>
   <nav>
-    <router-link class="router-list" to="/use-state-hook" active-class="active">useState</router-link>
-    <router-link class="router-list" to="/use-modal-hook" active-class="active">useModal</router-link>
-    <router-link class="router-list" to="/use-string-case-hook" active-class="active">useStringCase</router-link>
+    <router-link class="router-list" to="/use-state-hook" active-class="active"
+      >useState</router-link
+    >
+    <router-link class="router-list" to="/use-modal-hook" active-class="active"
+      >useModal</router-link
+    >
+    <router-link class="router-list" to="/use-string-case-hook" active-class="active"
+      >useStringCase</router-link
+    >
   </nav>
   <router-view class="padding"></router-view>
   <footer>
-    <p>Abdulnasır OLCAN</p>
+    <p>
+      🍁 MIT Licensed | Copyright © 2022-present Abdulnasır Olcan and @Vue3UseHooks contributors
+    </p>
   </footer>
 </template>
-
 
 <style scoped>
 .router-list {
