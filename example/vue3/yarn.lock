@@ -510,6 +510,11 @@ vue-tsc@^0.38.4:
   dependencies:
     "@volar/vue-typescript" "0.38.5"
 
+vue3-use-hooks@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/vue3-use-hooks/-/vue3-use-hooks-0.0.1.tgz#077c8e208ab296aa6b1edaef85a8cb4fb162502a"
+  integrity sha512-/5RhyvScIq4oIT37EoAyX1V4vI4yxTUW1uE1JQd+aIqVHrdAk2LkYYN0sLaATg4mQsrTdFvkEFuE4Soxg2zZrQ==
+
 vue@^3.2.37:
   version "3.2.37"
   resolved "https://registry.yarnpkg.com/vue/-/vue-3.2.37.tgz#da220ccb618d78579d25b06c7c21498ca4e5452e"

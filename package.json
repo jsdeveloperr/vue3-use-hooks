@@ -1,7 +1,6 @@
 {
   "name": "vue3-use-hooks",
-  "private": true,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "vue3 use hooks",
   "author": "Abdulnasır OLCAN",
   "license": "MIT",

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { reactive } from 'vue';
-import { useStringCase } from '../../../../src';
+import { useStringCase } from 'vue3-use-hooks';
 
     const state = reactive({
       name: 'imelda white',

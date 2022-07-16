@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useState } from '../../../../src';
+import { useState } from 'vue3-use-hooks';
 const [count, setCount] = useState(0);
 </script>
 

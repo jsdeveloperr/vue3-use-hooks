@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useModal } from '../../../../src';
+import { useModal } from 'vue3-use-hooks';
 
 const contrubitors = [
   {

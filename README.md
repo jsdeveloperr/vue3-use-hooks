@@ -2,6 +2,15 @@
 
 <p>Reusability and Composition functions.</p>
 
+<div align="center">
+
+[![npm](https://img.shields.io/npm/v/vue3-use-hooks?style=flat-square)](https://www.npmjs.com/package/vue3-use-hooks)
+![npm bundle size](https://img.shields.io/bundlephobia/minzip/vue3-use-hooks?style=flat-square)
+![npm](https://img.shields.io/npm/dm/vue3-use-hooks?style=flat-square)
+![GitHub license](https://img.shields.io/npm/l/vue3-use-hooks?style=flat-square)
+
+</div>
+
 ## :books: Introduction
 
 Vue Use Hooks implemented as vue composition functions.
