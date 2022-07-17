@@ -1,11 +1,12 @@
 {
   "name": "vue3-use-hooks",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "vue3 use hooks",
   "author": "Abdulnasır OLCAN",
   "license": "MIT",
   "main": "dist/index.umd.js",
   "source": "src/index.ts",
+  "types": "index.d.ts",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -46,7 +47,8 @@
     "vue3-hooks"
   ],
   "files": [
-    "dist/*.js"
+    "dist/*.js",
+    "*.d.ts"
   ],
   "dependencies": {}
 }
