@@ -26,6 +26,8 @@ Check our [example](https://vue3-use-hooks.vercel.app/)
 yarn add vue3-use-hooks
 # install with npm
 npm install vue3-use-hooks
+# install with pnpm 
+pnpm add vue3-use-hooks
 ```
 
 ## :sparkles: useLocalStorage
@@ -157,7 +159,7 @@ const handleButton = () => {
 </template>
 ```
 
-## License
+## 📄 License
 
 <div calign="center">
     🍁 MIT Licensed | Copyright © 2022-present Abdulnasır Olcan and @Vue3UseHooks contributors
