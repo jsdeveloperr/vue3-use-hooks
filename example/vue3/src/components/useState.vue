@@ -6,7 +6,7 @@ const [count, setCount] = useState(0);
 <template>
   <div>
     <p><b>Count: </b> {{ count }}</p>
-    <button class="fourth" @click="setCount(count - 1)">Decrement</button>
+    <button class="fourth" @click="count - 1 >= 0 && setCount(count - 1)">Decrement</button>
     <button class="fourth" @click="setCount(count + 1)">Increment</button>
   </div>
 </template>

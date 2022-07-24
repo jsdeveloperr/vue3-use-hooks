@@ -1,6 +1,6 @@
 # :boom: Vue3 Use Hooks
 
-<p>Reusability and Composition functions.</p>
+> <p>Reusability and Composition functions.</p>
 
 <div align="center">
 
@@ -35,7 +35,7 @@ pnpm add vue3-use-hooks
 ```vue
 <script setup lang="ts">
 import { useLocalStorage } from 'vue3-use-hooks';
-const { value, remove } = useLocalStorage('test', 1);
+const { value, remove } = useLocalStorage('test', '1');
 </script>
 
 <template>
@@ -58,7 +58,7 @@ const [count, setCount] = useState(0);
 <template>
   <div>
     <p><b>Count: </b> {{ count }}</p>
-    <button class="fourth" @click="setCount(count - 1)">Decrement</button>
+    <button class="fourth" @click="count - 1 >= 0 && setCount(count - 1)">Decrement</button>
     <button class="fourth" @click="setCount(count + 1)">Increment</button>
   </div>
 </template>
