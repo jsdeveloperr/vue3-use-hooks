@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-import { useEmbed } from '../../../../src';
+import { useEmbed } from 'vue3-use-hooks';
 const code = ref(null);
 const { isEmbedBlock, clear } = useEmbed(code);
 </script>
