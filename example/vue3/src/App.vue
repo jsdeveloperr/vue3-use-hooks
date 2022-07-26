@@ -1,15 +1,10 @@
 <template>
   <nav>
     <router-link class="router-list" to="/" active-class="active">useStringCase</router-link>
-    <router-link class="router-list" to="/use-local-storage-hook" active-class="active"
-      >useLocalStorage</router-link
-    >
-    <router-link class="router-list" to="/use-state-hook" active-class="active"
-      >useState</router-link
-    >
-    <router-link class="router-list" to="/use-modal-hook" active-class="active"
-      >useModal</router-link
-    >
+    <router-link class="router-list" to="/use-local-storage-hook" active-class="active">useLocalStorage</router-link>
+    <router-link class="router-list" to="/use-state-hook" active-class="active">useState</router-link>
+    <router-link class="router-list" to="/use-modal-hook" active-class="active">useModal</router-link>
+    <router-link class="router-list" to="/use-embed-hook" active-class="active">useEmbed</router-link>
   </nav>
   <router-view class="padding"></router-view>
   <footer>
@@ -27,6 +22,7 @@
   color: #666;
   padding: 0.5em 1em;
 }
+
 .padding {
   padding: 1em 2em;
 }

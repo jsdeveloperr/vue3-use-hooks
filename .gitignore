@@ -90,6 +90,10 @@ sw.*
 # Vim swap files
 *.swp
 
+# js and map
+/src/*.js.map
+/src/*.js
+
 # For package(s) version conflict fix
 package-lock.json
 
