@@ -1,14 +1,21 @@
 <script setup lang="ts">
-import { ref } from 'vue';
-import { useEmbed } from 'vue3-use-hooks';
-const code = ref(null);
+import { ref } from "vue";
+import { useEmbed } from "vue3-use-hooks";
+import exampleEmbed from "../shared/exampleEmbed";
+
+const code = ref(exampleEmbed);
 const { isEmbedBlock, clear } = useEmbed(code);
 </script>
 
 <template>
   <div class="example-container">
     <div class="flex-container">
-      <textarea rows="5" cols="50" placeholder="Place embed code here" v-model="code"></textarea>
+      <textarea
+        rows="5"
+        cols="50"
+        placeholder="Place embed code here"
+        v-model="code"
+      ></textarea>
       <button type="button" class="clear-button" @click="clear">Clear</button>
     </div>
     <div v-if="isEmbedBlock" v-html="code" class="embed-block"></div>
