@@ -1,4 +1,4 @@
-import { ref, computed, watch, Ref } from 'vue';
+import { ref, computed, watch, Ref, onMounted } from 'vue';
 
 declare global {
     interface Window {
@@ -78,10 +78,15 @@ const useEmbed = (code: any = null) => {
     injectedScripts.value = [];
   };
 
+  onMounted(() => {
+    if (embedCode.value) {
+      injectScript({ id: 'id', src: getEmbedScriptSrc(embedCode.value) });
+    }
+  })
+
   watch(code, newValue => {
     if (newValue) {
-      const src = getEmbedScriptSrc(newValue);
-      injectScript({ id: 'id', src });
+      injectScript({ id: 'id', src: getEmbedScriptSrc(newValue) });
     }
   });
 
